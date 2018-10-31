@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-top: 5rem;
+}
+.vid-section video
+{
+    float: left;
+}
+.inside-vid{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 10rem;   
+    display: inline-flex;
+}
+.abt-website{
+    display: inline-block;
+}
+.abt-website h4{
+    padding-top: 2rem;
+    padding-left: 10rem;
+    text-align: center;
+}
+.abt-website h2{
+    text-align: center;
+    padding-left: 10rem;
+    padding-top: 3rem;
+    color: darkorange;
+}
+.contact-form{
+    padding-bottom: 5rem;
+    text-align: center;
+    padding-top:5rem;
+    background-color: darkorange;
+}
+.contact-form input[type="text"]{
+    padding-left: 20px;
+    background: transparent;
+    outline: none;
+    border-bottom-color: black;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+.contact-form h7 a{
+    text-decoration: none;
+    color: white;
+}
+.contact-form input[type="email"]{
+    padding-left: 20px;
+    background: transparent;
+    outline: none;
+    border-bottom-color: black;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+.contact-form textarea{
+    background: transparent;
+    outline: none;
+    border: 1px solid black;
+}
+.contact-form input[type="submit"]{
+    outline:none;
+    border-radius:50px;
+    border: 1px solid black;
+    background:transparent;
+}
+.contact-form input[type="submit"]:hover{
+    cursor: pointer;
+}
+

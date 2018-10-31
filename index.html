@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="project.css">
+
+    <title>PortFolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <style type="text/css">
+        
+
+        .starter-template {
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+        #topmost{
+            position: relative;
+            animation: text 2s 1;
+        }
+        #sub{
+            position: relative;
+            animation: text1 2s 1;
+        }
+        #secondtop{
+            position:relative;
+            animation: second 2s 1;
+        }
+        #sub1{
+            position: relative;
+            animation: text2 2s 1;
+        }
+        
+        @keyframes text{
+            0%{
+                color: darkorange;
+                left: -350px;
+            }
+            15%{
+                color: darkorange;
+                left: -350px;
+            }
+            65%{
+                color: black;
+                left: 0px;
+            }
+        }
+        @keyframes text1{
+            0%{
+                color: darkorange;
+                top: -25px;
+            }
+            35%{
+                color: darkorange;
+                top: -25px;
+            }
+            85%{
+                color: black;
+                top: 0px;
+            }
+        }
+        @keyframes second{
+            0%{
+                color: white;
+                left: -350px;
+            }
+            35%{
+                color: white;
+                left: -350px;
+            }
+            85%{
+                color: black;
+                left: 0px;
+            }
+        }
+        @keyframes text2{
+            0%{
+                color: white;
+                top: -20px;
+            }
+            45%{
+                color: white;
+                top: -20px;
+            }
+            95%{
+                color: black;
+                top: 0px;
+            }
+        }
+        @keyframes text1{
+            0%{
+                color: darkorange;
+                top: -25px;
+            }
+            35%{
+                color: darkorange;
+                top: -25px;
+            }
+            85%{
+                color: black;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+
+    
+<body id="top">
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="opening.html">DuoFolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skills.html">Skills</a>
+          </li>
+                <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+
+      <div class="starter-template" style="background-color: darkorange; padding-top:5rem">
+        <h1 id="topmost">What is a DuoFolio?</h1>
+        <p class="lead" id="sub">Just like where a portfolio describes a person's profile, DuoFolio consists of the profiles of 2 individuals combined in one website, which helps the recruiters or the viewers have a better idea of the team they are dealing with.</p>
+      </div>
+        <div class="starter-template" style="padding-top: 10rem;padding-bottom: 5rem">
+            <h2 id="secondtop">Do we really need it?</h2>
+            <p class="lead" id="sub1">Be it in job approvals or going for a meeting where there's a group of unknown people or if you want to promote something online and the customers can check you out before hand whether you are legit or not is always handy of you possess a portfolio. So yes you do need a portfolio.</p>
+        </div>
+        <hr>
+        <div class="vid-section">
+        <video width="500" height="300" controls muted autoplay>
+  <source src="Student%20Portfolios%20for%20Classroom%20Assessment.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+            <h2 class="inside-vid">Still not clear about it?</h2>
+            <p class="lead" style="padding: 2rem; text-align:right">Lets watch this productive video by a youtuber and allow him to explain things properly to you. Hope this clears your doubts. If you still have problems you are always welcome to contact us anytime.</p>
+        </div>
+        <hr>
+        <div class="abt-website">
+            <h4>Now that we are clear on most things, so what is this website actually for?<br>Find out more as we go deeper together.<br>
+                <h2>STAY PUT!</h2></h4>
+        </div>
+        <hr>
+        <form method="get" onsubmit="validate()" action="#contact">
+        <div class="contact-form" id="contact">
+            <h2>Contact Us</h2><br>
+            <h6>Our email:</h6><h7><a href="#"> srinjaydam6@gmail.com</a></h7><br><br>
+            <p>Name</p>
+            <input type="text" placeholder="Enter Your name here" pattern="[A-z]{1,1000}" title = "Username should only be in letters" id="nam">
+            <br><br><p>Email</p>
+            <input type="email" placeholder="Enter your email here" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Please enter your email in the format eg:abc@gmail.com" id="emal">
+            <br><br><p>Message</p>
+            <textarea rows="5" cols="50" id="mess"></textarea><br><br>
+            <input type="submit" style="width:140px" value="Submit" id="script">
+        </div>
+        </form>
+        
+
+    </main><!-- /.container --><br>
+    <footer class="navbar-dark bg-dark" style="padding-top: 2rem;padding-bottom: 2rem">
+        <p style="text-align: center"><a href="#top" style="text-decoration: none;color: white" >Scroll back to the top</a></p><br>
+            <p style="text-align: center;color: whitesmoke"> ©2018 All Rights Reserved</p>
+        <img src="facebook.png" style="float:right;padding-right: 1rem;cursor: pointer" class="social">
+        <img src="linkedin.png" style="float:right;padding-right:0.5rem;cursor: pointer" class="social">
+        <img src="twitter.png" style="float:right;padding-right:0.5rem;cursor: pointer" class="social">
+        </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+        function validate(){
+        var name=document.getElementById('nam');
+        var email=document.getElementById('emal');
+        var mess=document.getElementById('mess');
+        if(name.value=="" && email.value==""&&mess.value==""||email.value==""|| mess.value=="")
+            {
+                alert("Fill in the minimum credentials before continuing");
+            }
+            else
+            {
+                alert("Thanks for contacting, We will reach you shortly");
+            }
+        }
+        document.getElementsByClassName('social')[0].onclick=function(){
+            window.location="https://www.facebook.com/";
+        }
+        document.getElementsByClassName('social')[1].onclick=function(){
+            window.location="https://in.linkedin.com/";
+        }
+        document.getElementsByClassName('social')[2].onclick=function(){
+            window.location="https://twitter.com/login?lang=en";
+        }
+    </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+    $(document).ready(function(){
+        $('#script').mouseover(function(){
+            $('#script').css("border-color","white"),
+                $('#script').css("color","white")
+        });
+            $('#script').mouseout(function(){
+                $('#script').css("border-color","black"),
+                    $('#script').css("color","black")
+            });
+        });
+</script>
+</body>
+</html>

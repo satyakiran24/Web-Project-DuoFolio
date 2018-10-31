@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Skills</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <style type="text/css">
+        body {
+            padding-top: 5rem;
+        }
+
+        .starter-template {
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+        #img2:hover{
+            opacity: 0.6;
+            //background: rgba(0,0,0,0.6);
+            //background-color: darkorange;
+            cursor: pointer;
+        }
+        @keyframes first{
+            0%{
+                opacity: 0;
+                position: relative;
+                right: 14rem;
+            }
+            30%{
+                opacity: 0;
+                position: relative;
+                right: 14rem;
+            }
+            80%{
+                opacity: 1;
+                position: relative;
+                right: 0rem;
+            }
+        }
+        @keyframes second{
+            0%{
+                opacity: 0;
+                position: relative;
+                left: 14rem;
+            }
+            30%{
+                opacity: 0;
+                position: relative;
+                left: 14rem;
+            }
+            80%{
+                opacity: 1;
+                position: relative;
+                left: 0rem;
+            }
+        }
+        .bg-modal{
+            width: 100%;
+            height: 155%;
+            background-color: rgba(0,0,0,0.7);
+            position: absolute;
+            top: -6%;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            animation: popu 2s 1;
+        }
+        .modal-content{
+            width: 60rem;
+            height: 40rem;
+            background-color: white;
+            border-radius: 4px;
+            padding: 40px;
+            position: relative;
+        }
+        .close{
+            position: absolute;
+            top: 0;
+            right: 14px;
+            font-size: 42px;
+            transform: rotate(45deg);
+        }
+        .bg-modal2{
+            width: 100%;
+            height: 155%;
+            background-color: rgba(0,0,0,0.7);
+            position: absolute;
+            top: -6%;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            animation: pop 2s 1;
+        }
+        .modal-content2{
+            width: 60rem;
+            height: 40rem;
+            background-color: white;
+            border-radius: 4px;
+            padding: 40px;
+            position: relative;
+        }
+        @keyframes pop{
+            0%{
+                opacity: 0;
+            }
+            25%{
+                opacity: 0;
+            }
+            60%{
+                opacity: 1;
+            }
+        }
+        @keyframes popu{
+            0%{
+                opacity: 0;
+            }
+            25%{
+                opacity: 0;
+            }
+            60%{
+                opacity: 1;
+            }
+        }
+        
+    </style>
+</head>
+
+    
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="opening.html">DuoFolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Profile</a>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="#">Skills<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <main role="main" class="container" id="top">
+
+    <div class="starter-template">
+    <div class="card-deck">
+       <div class="card" style="animation: first 2s 1">
+       <img class="card-img-top" src="22538603_1439007019501694_909835735593413482_o.jpg" alt="Card image cap" id="img2"><span style="position: absolute;top: 55%;left: 10%;font-size: 25px;color: white;letter-spacing: 1px"><b>Srinjay Dam</b></span>
+       <div class="card-body" style="padding-top: 3rem;padding-bottom: 3rem">
+       <h5 class="card-title">My area of expertise</h5>
+       <p class="card-text">Because being invested my time in the developement sector mainly in the web department my area of expertise is around those technologies involved in the efficient of web.<br>Designing is the main motto</p>
+       </div>
+       <div class="card-footer">
+        <a href="#img2" class="btn btn-secondary" id="button">Check out my skills here</a>
+       </div>
+  </div>
+  <div class="card" style="animation: second 2s 1">
+      <img class="card-img-top" src="chetan.jpg" alt="Card image cap" id="img2"><span style="position: absolute;top: 55%;left: 10%;font-size: 25px;color: white;letter-spacing: 1px"><b>Venkat Chetan Reddy</b></span>
+    <div class="card-body" style="padding-top: 3rem;padding-bottom: 3rem">
+      <h5 class="card-title">My Area of Expertise</h5>
+      <p class="card-text">As you have already gone through my profile your would have come across my field of interest, and based on that my area of expertise lies around Information Security sector.<br>Safeguarding information is the motto</p>
+    </div>
+    <div class="card-footer">
+        <a href="#img2" class="btn btn-secondary" id="button2">Check out my skills here</a>
+    </div>
+  </div>
+</div>
+        </div>
+        
+
+    </main><!-- /.container -->
+    <div style="width: 50px;cursor: pointer;padding: 1rem;text-align: center;background-color: coral;margin-left:1rem;position: relative;margin-bottom: -2rem;color: white" onclick="previous()" class="starter-template"><b>⮜</b></div>
+    <footer class="navbar-dark bg-dark" style="padding-top: 2rem;padding-bottom: 2rem">
+        <p style="text-align: center"><a href="#top" style="text-decoration: none;color: white;text-align: center">Scroll back to the top</a></p><br>
+            <p style="text-align: center;color: whitesmoke"> ©2018 All Rights Reserved</p>
+        <img src="facebook.png" style="float:right;padding-right: 1rem;cursor: pointer" class="social">
+        <img src="linkedin.png" style="float:right;padding-right:0.5rem;cursor: pointer" class="social">
+        <img src="twitter.png" style="float:right;padding-right:0.5rem;cursor: pointer" class="social">
+        </footer>
+    <div class="bg-modal2" id="popup">
+        <div class="modal-content2">
+            <div class="card-columns">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Cyber Security</h5>
+        <ul class="card-text">
+            <li>
+            Penetration System
+            </li>
+            <li>Blockchain</li>
+            <li>HoneyPort</li>
+            <li>Command Line Interaction</li>
+            <li>Network Management</li>
+            <li>Python scripting</li>
+        </ul>
+    </div>
+  </div>
+  <div class="card p-3">
+    <div class="card-body">
+        <h5 class="card-title">Learning Skills</h5>
+      <p>4 Certifications total which includes Introduction to cybersecurity, Introduction to C++, EF SET English Examination, SSCP: Cryptography</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Competitive Coding</h5>
+      <p class="card-text">A decent grip on Data Structures and Algorithms. Took part in few events on competitive online platforms.</p>
+    </div>
+  </div>
+  <div class="card bg-dark text-white text-center p-4">
+    <div class="card-body">
+      <p style="padding: 2rem">My Skills</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Sports</h5>
+      <p class="card-text">A.I.U participant on behalf of Lovely Professional University Cricket Team.</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Web Developement</h5>
+        <ul class="card-text">
+            <li>HTML</li>
+            <li>Cascading Style Sheets</li>
+            <li>Bootstrap</li>
+            <li>AngularJs</li>
+            <li>jQuery</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Cryptography</h5>
+      <p class="card-text">Encryption and Decryption frameworks, Securing communications mechanism.</p>
+    </div>
+  </div>
+</div>
+            <div class="close">+</div>    
+        </div>    
+    </div>
+    
+    <!--Second Pop Up -->
+    <div class="bg-modal" id="popup">
+        <div class="modal-content">
+            <div class="card-columns">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Front End Web Design</h5>
+        <ul class="card-text">
+            <li>
+            Html
+            </li>
+            <li>Cascading Style Sheets</li>
+            <li>CSS Animations</li>
+            <li>Bootstrap</li>
+            <li>Bootstrap Inbuilt classes</li>
+            <li>JavaScript</li>
+            <li>AngularJs</li>
+            <li>ReactJs</li>
+            <li>jQuery</li>
+        </ul>
+    </div>
+  </div>
+  <div class="card p-3">
+    <div class="card-body">
+        <h5 class="card-title">Learning Skills</h5>
+      <p>3 Course certifications from Udemy and Coursera based on FullStack Web Developement package.</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Competitive Coding</h5>
+      <p class="card-text">Took part in Coding Compettions like Codevita 2018, Snackdown, All India Techgig Virtual Campus. Clear Knowledge on Data Structures and Algorithms</p>
+    </div>
+  </div>
+  <div class="card bg-dark text-white text-center p-4">
+    <div class="card-body">
+      <p style="padding: 2rem">My Skills</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Communication Skills</h5>
+      <p class="card-text">Have a strong grip on English Language when presenting, have good interactive personality</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Back End Scripting</h5>
+        <ul class="card-text">
+            <li>PHP</li>
+            <li>Database handling</li>
+            <li>MySQL and MySQLi</li>
+            <li>Server Handling</li>
+            <li>Session check</li>
+            <li>Basic Wordpress</li>
+            <li>Laravel (Theoritical)</li>
+        </ul>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Other Skills</h5>
+      <p class="card-text">A good understanding on Video Editing Software such as Sony Vegas Pro for video editing, which I implemented on my Youtube channel. Good painting skills. Proficient situation analyzer.</p>
+    </div>
+  </div>
+</div>
+            <div class="close">+</div>    
+        </div>    
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+    document.getElementsByClassName('card-img-top')[0].onclick=function(){
+        window.location="about.html";
+    }
+    
+    document.getElementsByClassName('card-img-top')[1].onclick=function(){
+        window.location="chetan.html";
+    }
+    function previous(){
+        window.location="about.html";
+    }
+        document.getElementsByClassName('social')[0].onclick=function(){
+            window.location="https://www.facebook.com/";
+        }
+        document.getElementsByClassName('social')[1].onclick=function(){
+            window.location="https://in.linkedin.com/";
+        }
+        document.getElementsByClassName('social')[2].onclick=function(){
+            window.location="https://twitter.com/login?lang=en";
+        }
+    </script>
+        <!-- SMOOTH SCROLL -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+    </script>
+    <script>
+    document.getElementById('button').addEventListener('click',function(){
+       document.querySelector('.bg-modal').style.display="flex"; 
+    });
+        document.getElementsByClassName("close")[0].addEventListener('click',function(){
+            document.querySelector('.bg-modal2').style.display="none";
+        });
+        document.getElementById('button2').addEventListener('click',function(){
+           document.querySelector('.bg-modal2').style.display="flex"; 
+        });
+         document.getElementsByClassName("close")[1].addEventListener('click',function(){
+            document.querySelector('.bg-modal').style.display="none";
+        });
+    </script>
+</body>
+</html>
